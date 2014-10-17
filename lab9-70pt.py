@@ -12,3 +12,7 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+print ' celziuz to farhenheight '
+userinput = int(raw_input())
+farhen = ((userinput * 9) / 5 + 32)
+print str(farhen)
