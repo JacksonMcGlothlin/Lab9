@@ -13,3 +13,10 @@
 # - A temperature of over 105F
 # - A temperature of over 102F and they have been sick in the last 24 hours
 # - A temperature over 100, OR they've been sick in the last 24 hours, AND they've recently travelled to West Africa.
+
+myList = [102,98,96,101,100,99,103,97,98,105]
+for W in myList:
+ if W > 100:
+  print W
+print 'have you been sick in the last 24 hours?'
+userinput = int(raw_input())
